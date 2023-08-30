@@ -24,9 +24,9 @@ export class Vista_2 extends LitElement{
             <ul class="menu">
                 <li><a href="index.html">Vista 1</a></li>
                 <li><a href="2vista.html">Vista 2</a></li>
-                <li><a href="vista3.html">Vista 3</a></li>
-                <li><a href="vista4.html">Vista 4</a></li>
-                <li><a href="vista5.html">Vista 5</a></li>
+                <li><a href="3vista.html">Vista 3</a></li>
+                <li><a href="4vista.html">Vista 4</a></li>
+                <li><a href="5vista.html">Vista 5</a></li>
             </ul>
         </div>
     </header>

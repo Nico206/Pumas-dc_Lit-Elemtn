@@ -2,10 +2,8 @@ import { LitElement, html } from "lit-element";
 import styleScss from "./vista_3Style"
 
 export class Vista_3 extends LitElement{
-
     static get styles(){
         return [styleScss]
-    
     }
 
     render(){
@@ -22,46 +20,46 @@ export class Vista_3 extends LitElement{
         <div class="dropdown">
             <div class="menu-icon">&#9776;</div>
             <ul class="menu">
-                <li><a href="login.html">Vista 1</a></li>
-                <li><a href="vista2.html">Vista 2</a></li>
-                <li><a href="vista3.html">Vista 3</a></li>
-                <li><a href="vista4.html">Vista 4</a></li>
-                <li><a href="vista5.html">Vista 5</a></li>
+                <li><a href="index.html">Vista 1</a></li>
+                <li><a href="2vista.html">Vista 2</a></li>
+                <li><a href="3vista.html">Vista 3</a></li>
+                <li><a href="4vista.html">Vista 4</a></li>
+                <li><a href="5vista.html">Vista 5</a></li>
             </ul>
         </div>
     </header>
 
     <div class="gray-box">
         <ul class="list">
-            <li><img src="img/icon_football.png" alt="Icono 1">Home</li>
-            <li><img src="img/icon_football.png" alt="Icono 2">Presidencia</li>
-            <li><img src="img/icon_football.png" alt="Icono 3">Presidencia</li>
-            <li><img src="img/icon_football.png" alt="Icono 4">Vice-presidencia</li>
-            <li><img src="img/icon_football.png" alt="Icono 5">Secretaria</li>
-            <li><img src="img/icon_football.png" alt="Icono 6">Tesoreria</li>
-            <li><img src="img/icon_football.png" alt="Icono 7">Revisoria fiscal</li>
-            <li><img src="img/icon_football.png" alt="Icono 8">Lista afiliados</li>
-            <li><img src="img/icon_football.png" alt="Icono 9">Lista jugadores</li>
-            <li><img src="img/icon_football.png" alt="Icono 10">Lista coach's</li>
+            <li><img src="src/img/icon_football.png" alt="Icono 1">Home</li>
+            <li><img src="src/img/icon_football.png" alt="Icono 2">Presidencia</li>
+            <li><img src="src/img/icon_football.png" alt="Icono 3">Presidencia</li>
+            <li><img src="src/img/icon_football.png" alt="Icono 4">Vice-presidencia</li>
+            <li><img src="src/img/icon_football.png" alt="Icono 5">Secretaria</li>
+            <li><img src="src/img/icon_football.png" alt="Icono 6">Tesoreria</li>
+            <li><img src="src/img/icon_football.png" alt="Icono 7">Revisoria fiscal</li>
+            <li><img src="src/img/icon_football.png" alt="Icono 8">Lista afiliados</li>
+            <li><img src="src/img/icon_football.png" alt="Icono 9">Lista jugadores</li>
+            <li><img src="src/img/icon_football.png" alt="Icono 10">Lista coach's</li>
         </ul>
         
     </div>
 
     <div class="row1">
         <div class="card">
-            <img src="img/icon8.png" >
+            <img src="src/img/icon8.png" >
             <h2>Solicitudes</h2>
-            <img src="img/icon7.png" >
+            <img src="src/img/icon7.png" >
         </div>
         <div class="card">
-            <img src="img/icon8.png" >
+            <img src="src/img/icon8.png" >
             <h2>Actas</h2>
-            <img src="img/icon7.png" >
+            <img src="src/img/icon7.png" >
         </div>
         <div class="card">
-            <img src="img/icon9.png" >
+            <img src="src/img/icon9.png" >
             <h2>Pendientes</h2>
-            <img src="img/icon7.png" >
+            <img src="src/img/icon7.png" >
         </div>
     </div>
 
@@ -102,6 +100,7 @@ export class Vista_3 extends LitElement{
           </div>
         
         `
+
 
     }
 }

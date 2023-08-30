@@ -4,6 +4,7 @@ export default css `
 
 
 .container {
+
     position: relative;
     background-color: red;
     border-bottom-left-radius: 20px;
@@ -70,16 +71,17 @@ label {
 
 .list img {
     height: 15px;
-    margin-right: 10px; 
+    margin-right: 10px; /* Ajusta el espaciado entre el icono y el texto */
 }
 
 
 .row1 {
-    display: flex; 
+    display: flex; /* Alineamos los elementos horizontalmente */
+    align-items: flex-end; /* Alineamos los elementos verticalmente al pie */
     margin-bottom: 10px;
     max-width: 900px;
     margin-top: -530px ;
-    margin-left: 338px;
+    margin-left: 400px;
   }
 
   
@@ -119,10 +121,10 @@ label {
 .card h2::after {
     content: "";
     display: block;
-    width: 120px; 
-    border-bottom: 2px solid #afadad; 
+    width: 147%; /* Ajusta el ancho del subrayado (por ejemplo, 50% del ancho del título) */
+    border-bottom: 2px solid #afadad; /* Ajusta el grosor y el color del subrayado */
     position: absolute;
-    left: 3%; 
+    left: 3%; /* Ajusta la posición horizontal del subrayado */
 }
 
 .card img:nth-child(3) {
@@ -187,169 +189,109 @@ label {
   display: block;
 }
 
-
-.solicitud h1{
-  font-size: 33px;
-    color: #5a5a5a;
-    position: relative;
-    top: 2.5pc;
+.acta h1{
+    font-size: 33px;
+    color:#5a5a5a;
+    position: relative; 
+    top: 1.5pc;
     left: 42pc;
     text-align: center;
     border-bottom: 1px solid silver;
     max-width: 271px;
 }
 
-.solicitud h3{
 
-  font-size: 18px;
-  color: #353434;
-  position: relative;
-  top: 2.5pc;
-  left: -9pc;
-  text-align: center;
-  font-family: Arial light;
+
+/* Estilos para la sección original */
+.acta h3 {
+    font-size: 18px;
+    color: #353434;
+    position: relative;
+    top: 1.5pc;
+    left: -19pc;
+    text-align: center;
+    font-family: Arial light;
 }
-
-#opci{
-  width: 250px;
-  height: 30px;
-  font-size: 16px;
-  position: absolute;
-  right: 61pc;
-  top: 24pc;
-  border-radius: 10px;
-}
-
 
 #opciones {
-    width: 265px; /* Ajusta el ancho del cuadro de opciones */
-    height: 31px; /* Ajusta el alto del cuadro de opciones */
-    font-size: 16px; 
-    position: absolute; 
-    right: 25pc; 
-    top: 24pc; 
+    width: 265px;
+    height: 31px;
+    font-size: 16px;
+    position: absolute;
+    left: 33pc;
+    top: 23pc;
     border-radius: 10px;
 }
 
-.contorno {
-  width: 55pc;
-  height: 17pc;
-  border: 2px solid #afadad;
-  border-radius: 20px;
-  background-color: #ffffff;
-  position: absolute;
-  top: 40%;
-  left: 18%;
-  }
-
-/* Estilo específico para el elemento "Elemento a comprar" */
-.elemento {
+/* Estilos para la sección duplicada */
+.acta2 h3 {
+    font-size: 18px;
+    color: #353434;
     position: absolute;
-    top: 27px;
-    left: 40px;
-    padding: 10px;
-    background-color: #ffffff;
-  }
-  
-  /* Estilo para el input dentro del elemento "Elemento a comprar" */
-  .elemento input[type="text"] {
-    width: 180%;
-    height: 20px;
-    margin: 5px 0;
-    padding: 5px;
-    border-radius: 5px;
-  }
-  
-
-
-
-/* Estilo específico para el valor "Valor de la compra" */
-.valor{
-    position: absolute;
-    top: 27px;
-    left: 29pc;
-    padding: 10px;
-    background-color: #ffffff;
-  }
-  
-  /* Estilo para el input dentro del valor "Valor de la compra" */
-  .valor input[type="text"] {
-    width: 180%;
-    height: 20px;
-    margin: 5px 0;
-    padding: 5px;
-    border-radius: 5px;
-  }
-
-  .unidades {
-    position: absolute;
-    right: 87px;
-    top: -293px;
-  }
-  
-  .unidades #opciones {
-    width: 343px;
-    height: 34px;
-    font-size: 16px;
-    border-radius: 5px;
-    color: #c0c0c0;
-  }
-
-/* Estilo específico para el valor "Valor de la compra" */
-.fecha{
-    position: absolute;
-    top: 76px;
-    left: 29pc;
-    padding: 10px;
-    background-color: #ffffff;
-  }
-  
-  /* Estilo para el input dentro del valor "Valor de la compra" */
-  .fecha input[type="text"] {
-    width: 180%;
-    height: 20px;
-    margin: 5px 0;
-    padding: 5px;
-    border-radius: 5px;
-  }
-
-/* Estilo específico para el valor "Valor de la compra" */
-.descripcion{
-    position: absolute;
-    top: 135px;
-    left: 40px;
-    padding: 10px;
-    background-color: #ffffff;
-  }
-  
-  /* Estilo para el input dentro del valor "Valor de la compra" */
-  .descripcion input[type="text"] {
-    width: 300%;
-    height: 85px;
-    margin: 5px 0;
-    padding: 5px;
-    border-radius: 13px;
-  }
-
-  button {
-    background-color: #ff0000;
-    color: white;
-    border: none;
-    padding: 10px 20px;
+    top: 19.6pc;
+    left: 54pc;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    font-family: Arial light;
+}
+
+#opciones2 {
+    width: 265px;
+    height: 31px;
     font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
     position: absolute;
-    top: 181px; 
-    left: 41.7pc;
-    width: 150px;
-  }
+    left: 55pc;
+    top: 23pc;
+    border-radius: 10px;
+}
 
 
+.contorno {
+    width: 700px;
+    height: 240px;
+    border: 2px solid #afadad;
+    border-radius: 20px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 44%;
+    left: 24%;
+    overflow: hidden;
+    padding: 10px;
+}
 
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    position: relative; 
+    color: #ffffff;
+    border-radius: 15px; 
+}
 
+.table-container {
+    border-radius: 15px; 
+    overflow: hidden; 
+}
+
+th, td {
+    border: 1px solid #aaa2a2;
+    padding: 14px;
+    text-align: center;
+}
+
+th.narrow-column {
+    width: 90px; 
+}
+
+th:not(.narrow-column), td:not(.narrow-column) {
+    width: 120px; 
+}
+
+th {
+    background-color: #504e4e;
+}
+
+tr:nth-child(n+2) {
+    background-color: #ffffff;
+}
 
 `
